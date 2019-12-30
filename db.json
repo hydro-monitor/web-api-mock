@@ -5,8 +5,8 @@
     { "id": 3 }
   ],
   "configurations": [
-    { "id": 1, "nodeId": 1, "Name": "Normal", "Interval": 60, "PicturesNum": 0, "UpperLimit": 9999999, "LowerLimit": -9999999 },
-    { "id": 2, "nodeId": 2, "Name": "Normal", "Interval": 60, "PicturesNum": 0, "UpperLimit": 9999999, "LowerLimit": -9999999 }
+    { "id": 1, "nodeId": 1, "States": { "Normal": { "Name": "Normal", "Interval": 60, "PicturesNum": 0, "UpperLimit": 9999999, "LowerLimit": -9999999 } } },
+    { "id": 2, "nodeId": 2, "States": { "Normal": { "Name": "Normal", "Interval": 60, "PicturesNum": 0, "UpperLimit": 9999999, "LowerLimit": -9999999 } } }
   ],
   "profile": {
     "name": "typicode"
