@@ -8,6 +8,9 @@
     { "id": 1, "nodeId": 1, "States": { "Normal": { "Name": "Normal", "Interval": 60, "PicturesNum": 0, "UpperLimit": 9999999, "LowerLimit": -9999999 } } },
     { "id": 2, "nodeId": 2, "States": { "Normal": { "Name": "Normal", "Interval": 60, "PicturesNum": 0, "UpperLimit": 9999999, "LowerLimit": -9999999 } } }
   ],
+  "requests": [
+    { "id": 1, "nodeId": 1, "Status": "Pending" }
+  ],
   "profile": {
     "name": "typicode"
   }
