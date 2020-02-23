@@ -2,11 +2,13 @@
   "nodes": [
     { "id": 1 },
     { "id": 2 },
-    { "id": 3 }
+    { "id": "lujan-1" }
   ],
   "configurations": [
     { "id": 1, "nodeId": 1, "States": { "Normal": { "Name": "Normal", "Interval": 60, "PicturesNum": 0, "UpperLimit": 9999999, "LowerLimit": -9999999 } } },
-    { "id": 2, "nodeId": 2, "States": { "Normal": { "Name": "Normal", "Interval": 60, "PicturesNum": 0, "UpperLimit": 9999999, "LowerLimit": -9999999 } } }
+    { "id": 2, "nodeId": 2, "States": { "Normal": { "Name": "Normal", "Interval": 60, "PicturesNum": 0, "UpperLimit": 9999999, "LowerLimit": -9999999 } } },
+    { "id": 2, "nodeId": "lujan-1", "States": { "Normal": { "Name": "Normal", "Interval": 60, "PicturesNum": 0, "UpperLimit": 9999999, "LowerLimit": -9999999 } } }
+    
   ],
   "requests": [
     { "id": 1, "nodeId": 1, "State": "Pending" }
